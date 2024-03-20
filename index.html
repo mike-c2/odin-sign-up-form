@@ -37,7 +37,7 @@
         </p>
       </div>
       <div id="form-container">
-        <form action="example.com/path" method="post">
+        <form id="new-account-form" action="example.com/path" method="post">
           <p>Let's do this!</p>
 
           <div class="input-pair">
@@ -74,9 +74,14 @@
           </div>
         </form>
       </div>
-    </div>
-    <div id="button-container">
+      <div id="button-container">
+        <button id="create-acc-btn" type="submit" form="new-account-form">Create Account</button>
+        <p>
+          Already have an account?
+          <a href="example.com/path">Log in</a>
+        </p>
 
+      </div>
     </div>
   </main>
 
