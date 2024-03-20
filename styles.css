@@ -138,8 +138,13 @@ form > p {
 input {
   padding: 0.8em;
   width: 20em;
-  border: 1px solid rgb(200, 200, 200);;
+  border: 0.1rem solid rgb(200, 200, 200);
   border-radius: 0.3em;
+}
+
+input:focus {
+  border-color: blue;
+  box-shadow: 0.2rem 0.2rem 0.4rem 0.1rem black;
 }
 
 #button-container {
